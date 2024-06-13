@@ -24,9 +24,16 @@
   border: 3px solid black;
 }
 
-img {
-  height: 150px;
-  width: 150px;
+.hold {
+  border: 5px solid #ccc;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/cloudy.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .active {
